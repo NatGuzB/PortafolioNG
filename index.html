@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Galáctico - Natalia Guzman</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="nebula"></div>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">&lt;DevGalaxy/&gt;</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">Acerca de mí</a></li>
+                <li><a href="#technologies" class="nav-link">Tecnologías</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="planet"></div>
+            <h1 class="hero-title">
+                <span class="glitch" >Natalia Guzman</span>
+            </h1>
+            <p class="hero-subtitle">Desarrollador JS Full Stack Junior</p>
+            <p class="hero-description">Explorando el universo del código, una línea a la vez</p>
+            <button class="cta-button" onclick="scrollToSection('about')">
+                Inicia este viaje 
+                <span class="rocket">🚀</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">Acerca de Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy una desarrolladora Full Stack junior apasionada por crear experiencias digitales extraordinarias. Un viaje que comenzo por curiosidad ha convertido en una pasión que me impulsa a explorar nuevas tecnologías y resolver problemas complejos.</p>
+                    
+                    <p>Poseo conocimientos de desarrollo frontend y backend, disfruto trabajando en proyectos grupales que desafían mis habilidades y me permiten crecer profesionalmente.</p>
+                    
+                    <div class="skills-summary">
+                        <div class="skill-item">
+                            <span class="skill-icon">💻</span>
+                            <span>Frontend Development</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">⚙️</span>
+                            <span>Backend Development</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">🗄️</span>
+                            <span>Database</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="astronaut">👨‍🚀</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technologies" class="section tech-section">
+        <div class="container">
+            <h2 class="section-title">Tecnologías del universo Natalia</h2>
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item" data-tech="HTML5">
+                            <span class="tech-icon">🌐</span>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item" data-tech="CSS3">
+                            <span class="tech-icon">🎨</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="tech-item" data-tech="JavaScript">
+                            <span class="tech-icon">⚡</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item" data-tech="Node.js">
+                            <span class="tech-icon">🟢</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item" data-tech="MongoDB">
+                            <span class="tech-icon">🍃</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="tech-item" data-tech="PostgreSQL">
+                            <span class="tech-icon">🐘</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Herramientas</h3>
+                    <div class="tech-items">
+                        <div class="tech-item" data-tech="GitHub">
+                            <span class="tech-icon">📦</span>
+                            <span>Git</span>
+                        </div>
+                        <div class="tech-item" data-tech="VS Code">
+                            <span class="tech-icon">💻</span>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="tech-item" data-tech="Docker">
+                            <span class="tech-icon">🐳</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="tech-item" data-tech="AWS">
+                            <span class="tech-icon">☁️</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Proyectos Estelares</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🌟</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Cósmico</h3>
+                        <p>Plataforma de comercio electrónico de cafe.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Ver Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🚀</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Pokedex Galactica</h3>
+                        <p>Aplicación de pokemon.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Ver Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🌌</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Pagina Hollow knight</h3>
+                        <p>Pagina web sobre el videojuego Hollow knight.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Ver Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Contacto Intergaláctico</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¡Conectemos a través del universo!</h3>
+                    <p>¿Tienes un proyecto en mente? Yo puedo hacerlo realidad.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>...email@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💼</span>
+                            <div>
+                                <strong>LinkedIn</strong>
+                                <p>linkedin.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🐙</span>
+                            <div>
+                                <strong>GitHub</strong>
+                                <p>github.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form class="space-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            Enviar Mensaje
+                            <span class="send-icon">🚀</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Natalia Guzman. Todos los derechos reservados en toda la galaxia.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="GitHub">🐙</a>
+                        <a href="#" class="social-link" title="LinkedIn">💼</a>
+                        <a href="#" class="social-link" title="Twitter">🐦</a>
+                        <a href="#" class="social-link" title="Email">📧</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Desarrollado con ❤️ y ☕ desde el espacio exterior</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
