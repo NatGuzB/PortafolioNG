@@ -9,3 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
+//Inicio viaje
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+     if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+    }
+    }
