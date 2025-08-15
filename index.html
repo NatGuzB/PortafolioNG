@@ -33,7 +33,23 @@
 
     <section class="hero">
         <div class="hero-content">
-            <div class="planet"></div>
+
+            <div class="galaxy-universal-g">
+                 <div class="universe">
+                    <div class="sun"></div>
+
+                    <!-- Órbitas -->
+                    <div class="orbit" id="orbit-earth" style="width: 200px; height: 200px;"></div>
+                    <div class="orbit" id="orbit-mars" style="width: 300px; height: 300px;"></div>
+                    <div class="orbit" id="orbit-jupiter" style="width: 420px; height: 420px;"></div>
+
+                    <!-- Planetas -->
+                    <div class="planet earth" id="earth"></div>
+                    <div class="planet mars" id="mars"></div>
+                    <div class="planet jupiter" id="jupiter"></div>
+                </div>
+            </div>
+
             <h1 class="hero-title">
                 <span class="glitch" >Natalia Guzman</span>
             </h1>
@@ -55,15 +71,15 @@
                     <p>Poseo conocimientos de desarrollo frontend y backend, disfruto trabajando en proyectos grupales que desafían mis habilidades y me permiten crecer profesionalmente.</p>
                     
                     <div class="skills-summary">
-                        <div class="skill-item">
+                        <div class="skill-item-one">
                             <span class="skill-icon"><i class="bi bi-code-slash"></i></span>
                             <span>Frontend Development</span>
                         </div>
-                        <div class="skill-item">
+                        <div class="skill-item-two">
                             <span class="skill-icon"><i class="bi bi-gear-fill"></i></span>
                             <span>Backend Development</span>
                         </div>
-                        <div class="skill-item">
+                        <div class="skill-item-three">
                             <span class="skill-icon"><i class="bi bi-database-fill"></i></span>
                             <span>Database</span>
                         </div>
@@ -121,10 +137,6 @@
                 <div class="tech-category">
                     <h3>Herramientas</h3>
                     <div class="tech-items">
-                        <div class="tech-item" data-tech="GitHub">
-                            <span class="tech-icon"><img src="assets/icons/GIT.png" alt="Logo de Git"></span>
-                            <span>Git</span>
-                        </div>
                         <div class="tech-item" data-tech="VS Code">
                             <span class="tech-icon"><img src="assets/icons/VSCO.png" alt="Logo de VS Code"></span>
                             <span>VS Code</span>
@@ -258,7 +270,7 @@
                         </div>
                         <div class="project-links">
                             <a href="#" class="project-link">Ver Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="https://github.com/Majo-xlsx/Simulador-likes.git" class="project-link">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -344,6 +356,8 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="script.js"></script>
+ 
 </body>
 </html>
