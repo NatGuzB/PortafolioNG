@@ -576,28 +576,35 @@ body {
 }
 
 .project-tech {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 30px;
   margin-bottom: 24px;
 }
 
-.tech-tag {
-  background: rgba(0, 255, 255, 0.2);
-  color: var(--primary-color);
-  padding: 4.8px 12.8px;
-  border-radius: 15px;
-  font-size: 12.8px;
-  border: 1px solid rgba(0, 255, 255, 0.3);
+.tech-tag i{
+  font-size: 25px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
 .project-links {
   display: flex;
-  gap: 16px;
+  justify-content: center;
+  gap: 45px;
 }
 
 .project-link {
-  color: var(--secondary-color);
+  background: rgba(0, 255, 255, 0.2);
+  color: var(--primary-color);
+  padding: 8px 18px;
+  border-radius: 15px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 255, 255, 0.3);
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
