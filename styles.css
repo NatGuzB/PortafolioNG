@@ -249,7 +249,7 @@ body {
   color: var(--secondary-color);
   font-weight: 700;
   margin-bottom: 16px;
-  text-shadow: 4px 4px 10px #000000;
+  text-shadow: 1px 1px 16px #000000;
   
 }
 
