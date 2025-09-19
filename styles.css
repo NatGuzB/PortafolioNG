@@ -301,7 +301,7 @@ body {
 
 /* Estilos base */
 .section {
-  padding: 80px 0;
+  padding: 120px 0;;
   position: relative;
 }
 
@@ -325,6 +325,7 @@ body {
   grid-template-columns: 2fr 1fr;
   gap: 48px;
   align-items: center;
+  height: 320px;
 }
 
 .about-text p {
@@ -459,7 +460,19 @@ body {
 /* Seccion de tecnologias */
 .tech-section {
   background: var(--bg-secondary);
+    background: var(--bg-secondary);
+  mask-image: linear-gradient(
+    to bottom,
+    black 80%,
+    transparent 100% 
+  );
+  -webkit-mask-image: linear-gradient( /* Para compatibilidad */
+    to bottom,
+    black 80%,
+    transparent 100%
+  );
 }
+
 
 .tech-grid {
   display: grid;
